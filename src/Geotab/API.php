@@ -54,7 +54,7 @@ class API
             $this->credentials->setUsername($credentials["userName"]);
             $this->credentials->setDatabase($credentials["database"]);
             $this->credentials->setSessionId($credentials["sessionId"]);
-            $this->credentials->setPassword(null);
+            //$this->credentials->setPassword(null);
 
             if ($result["path"] !== "ThisServer") {
                 $this->credentials->setServer($result["path"]);
